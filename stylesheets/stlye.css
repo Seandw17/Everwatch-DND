@@ -47,7 +47,7 @@ body
     height: 500px;
 }
 
-.charinfoContainer
+.charinfoContainer, .formstyle
 {
     display: flex;
     align-items: center;
@@ -65,11 +65,9 @@ body
     padding-left: 20px;
 }
 
-.formstyle
+.formstyle form
 {
     text-align: center;
-    padding-left: 30%;
-    padding-right: 30%;
 }
 footer
 {
