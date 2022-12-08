@@ -1,0 +1,35 @@
+.TopPageLogo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.TitleHR
+{
+    height: 3px;
+    background-color: red;
+    border-color: red;
+}
+.TitleName
+{
+    text-align: center;
+    
+}
+.TitleName h1, .TitleName h2
+{
+    display: inline-block;
+}
+.TitleName h3
+{
+    margin-top: -20px;
+}
+
+.NavBar
+{
+    text-align: center;
+}
+
+body
+{
+    background-image: url(/Images/Scrollbackground.jpg);
+}
