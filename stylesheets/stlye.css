@@ -65,12 +65,11 @@ body
     padding-left: 20px;
 }
 
-form
+.formstyle
 {
     text-align: center;
-    display: inline-block;
-    margin-left: 35%;
-    
+    padding-left: 30%;
+    padding-right: 30%;
 }
 footer
 {
