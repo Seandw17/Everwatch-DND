@@ -1,19 +1,25 @@
+/*styling for the dnd logo at the top of the page*/
 .TopPageLogo
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+/*styling for the heading bar below the logo*/
 .TitleHR
 {
     height: 3px;
     background-color: red;
     border-color: red;
 }
-.TitleName
+.TitleName, .MainPageDesc, .mainstyle h2
 {
     text-align: center;
     
+}
+.MainPageDesc p
+{
+    font-size: 20px;
 }
 .TitleName h1, .TitleName h2
 {
@@ -32,4 +38,41 @@
 body
 {
     background-image: url(/Images/Scrollbackground.jpg);
+    font-family:cursive
+}
+
+.mainstyle img
+{
+    width: 400px;
+    height: 500px;
+}
+
+.charinfoContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.charinfoImage
+{
+    flex-basis: 40%;
+}
+
+.charinfoText
+{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+form
+{
+    text-align: center;
+    display: inline-block;
+    margin-left: 35%;
+    
+}
+footer
+{
+    text-align: center;
 }
