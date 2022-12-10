@@ -39,6 +39,8 @@
 body
 {
     background-image: url(/Images/Scrollbackground.jpg);
+    width: 100%;
+    height: 100%;
     font-family:cursive
 }
 
