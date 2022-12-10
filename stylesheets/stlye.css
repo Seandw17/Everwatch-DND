@@ -4,6 +4,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
 }
 /*styling for the heading bar below the logo*/
 .TitleHR
