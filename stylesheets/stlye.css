@@ -4,17 +4,18 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 99%;
+    max-width: 100%;
     
 }
 /*styling for the heading bar below the logo*/
 .TitleHR
 {
     height: 3px;
+    width: 100%;
     background-color: red;
     border-color: red;
 }
-.TitleName, .MainPageDesc, .mainpagedetails h2
+.TitleName, .MainPageDesc, .mainpagedetails h2, .worldpagedetails h2
 {
     text-align: center;
     
@@ -45,7 +46,7 @@ body
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.mainpagedetails p
+.mainpagedetails p .worldpagedetails p
 {
     font-size: 20px;
     text-align: left;
@@ -72,11 +73,11 @@ footer
     text-align: center;
 }
 
-.worldmap
+.worldpagedetails img
 {
     width: 70%;
     height: 10%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
+    border: 5px solid black;
 }
